@@ -10,7 +10,7 @@ from telegram import Bot
 from concurrent.futures import ThreadPoolExecutor
 
 # Configuration Telegram
-TELEGRAM_TOKEN = "7765993140:AAFyd8E_39wXberEosiWqES_QwgyBschw6A"
+TELEGRAM_TOKEN = "7959973926:AAFApdHqSpOBgkn-6a7ddkiMpKtHfok_DaM"
 TELEGRAM_CHAT_ID = "7663981935"
 
 bot = Bot(token=TELEGRAM_TOKEN)
