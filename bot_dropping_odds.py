@@ -66,3 +66,8 @@ def scraper_dropping_odds():
 
     matchs = soup.select("tr.match-row a[href^='/match']")
     match_urls = ["http://www.dropping-odds.com" + match["href"] for match in matchs]
+    import time
+
+while True:
+    time.sleep(60)  # Attendre 60 secondes avant de continuer (évite les erreurs de port)
+
